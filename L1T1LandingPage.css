@@ -1,0 +1,339 @@
+:root {
+    --primary-color: #ffb3d1;
+    --secondary-color: rgb(2, 115, 115);
+    --text-color: white;
+    --footer-background-color: rgb(222, 235, 250);
+    --footer-color: rgb(195, 205, 210);
+
+
+}
+a:visited{
+    text-decoration: double;
+}
+#readMore{
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    height: 50px;
+    width: 120px;
+}
+.row {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+}
+
+/* row-1 open */
+.row-1 {
+    font-size: 25px;
+    height: 45px;
+    background-color: rgb(2, 115, 115);
+}
+.icon{
+    color: var(--text-color);
+}
+.col-4{
+    font-size: 20px !important;
+
+}
+.requestContact:hover{
+    background-color: var(--text-color);
+    color: var(--secondary-color);
+}
+.requestContact {
+    border: 1px;
+    width: 150px;
+    height: 35px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--text-color);
+    border-radius: 25px;
+    color: var(--text-color);
+    font-size: 15px;
+    margin-left: 78px;
+}
+
+.bi-envelope-at {
+    color: var(--text-color);
+}
+/* row-1 closed */
+/*  row-2 open */
+.option:hover{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.row-2 {
+    text-align: center;
+    color: Black;
+    
+    width: 100%;
+    height: 30px;
+}
+#company-name{
+    height: 35px;
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 80px;
+    border: var(--secondary-color);
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+    font: bold;
+
+
+}
+
+.option{
+    margin: 20px 10px 0 0;
+    font-size: 18px;
+}
+.search {
+    width: 100px;
+    height: 30px;
+    margin-left: 45px;
+    border: 2px solid rgb(2, 115, 115);
+    border-radius: 20px;
+    padding-top: 1px;
+    }
+/* row-2 closed */
+/* row-3 open */
+.row-3{
+    --bs-gutter-x: 0 ;
+    --bs-gutter-y: 0;
+}
+.img {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 500px;
+}
+.imgr3h{
+position: absolute;
+top: 40%;
+    right: 70%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+    font-size:xx-large;
+}
+.imgr3p{
+    position: absolute;
+    top: 45%;
+    left: 41.8%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    color: var(--text-color);
+    font-size: large;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+
+}
+.imgr3readmore{
+    position: absolute;
+    top: 51%;
+    right: 76%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+   
+}
+.imgr3p.expanded{
+    -webkit-line-clamp: initial; 
+
+
+}
+.imgr3req{
+    position: absolute;
+    top: 51%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+.imgr3readmore:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.imgr3req:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+
+/* row-4 open */
+.row-4 {
+    background-color: var(--secondary-color);
+    display: flex;
+}
+.col-41 {
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+    display: inline-block;
+    flex-direction: column;
+}
+h6 {
+    width: 170px;
+    margin-right: 100px;
+    margin-left: 0;
+    margin-top: 5px;
+    align-items: center;
+    float:right;
+}
+p{
+    clear: both;
+    padding-top: 5px;
+}
+.box{
+    margin-left: 50px;
+    padding: 2px;
+    border-radius: 100%;
+    float: left;
+   
+height: 30px !important;
+width: 30px !important;
+border: 2px solid var(--text-color);
+}
+/* row-4 closed */
+/* row-5 open */
+.row-5 {
+    background-color: var(--footer-color);
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.img1 {
+    width: 400px;
+    border: 1px solid black;
+    height: 350px;
+
+}
+.about{
+    width: 55%;
+    word-wrap: break-word;
+    text-align: justify;
+}
+.about-img{
+    width: 30%;
+    padding-left: 5px;
+}
+#readMore{
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    height: 30px;
+    width: 100px;
+}
+/* row-5 close */
+/* row-6 open */
+.row-6{
+height: 300px;
+margin-top: 0;
+background-color: var(--footer-color);
+}
+.features{
+    padding: 0 15px 0 15px;
+    margin: 0 15px 0 15px;
+    width: 358px;
+    height: 250px;
+    position: relative;
+    display: inline;
+}
+.img2{
+    width: 350px;
+    height: 280px;
+}
+.ourservice-button{
+    position: absolute;
+    top: 251px; 
+    left: 70px; 
+    width: 295px;
+    height: 40px;
+    padding-right: 100px !important;
+    background-color: var(--text-color); 
+    box-shadow: inset;
+    color: black; 
+    padding: 10px 20px; 
+    border: none; 
+    
+    text-decoration: none; 
+   
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px; 
+  }
+  .box1{
+    position: absolute;
+    right: 270px;
+    bottom: 1px;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 100%;
+    float: left;
+    height: 50px;
+    background-color: var(--secondary-color);
+    
+height: 40px !important;
+width: 40px !important;
+border: 2px solid var(--text-color);
+color: var(--text-color);
+}
+
+/* row-6 close */
+/* row-7 open */
+.row-7{
+    height: 250px;
+    background-color: var(--footer-color);
+}
+.footer{
+    margin-top: 45px;
+    
+    
+}
+.heading{
+    color: black;
+    font-weight:bold;
+} 
+
+/* row-7 closed */
+/* row-8 open */
+.row-8{
+    background-color:var(--footer-background-color) ;
+}
+ul {
+    list-style: none;
+}
+
+.line {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin: 0 12px 12px 0;
+    border: 1px solid var(--text-color);
+    margin: none;
+    padding: none;
+}
+
+.nav {
+    display: flex;
+}
+
+
+.margin-l {
+    margin-left: 100px;
+}
+
+.margin-r {
+    margin-right: 100px;
+}
